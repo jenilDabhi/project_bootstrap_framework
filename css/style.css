@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.digi-design, .flexible, .creative{
+    padding: 120px 0;
+}
+.row>*{
+    padding: 0!important;
+}
+
+body{
+    font-family: 'Poppins';
+    font-family: themify;
+}
+
+/* HEADER */
+
+header{
+    z-index: 9;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+header nav a{
+    font-size: 14px!important;
+}
+
+/* BANNER */
+
+.carousel-item{
+    background: url(../img/banner.jpg)rgba(0,0,0,0.3);
+    background-blend-mode: color-burn;
+    padding: 180px 0;
+}
+.banner-items h1{
+    font-size: 64px;
+    max-width: 900px;
+}
+.banner-items p{
+    font-size: 15px;
+    max-width: 450px;
+}
+
+/* YOUR SITE YOUR WAY. */
+
+.your-site{
+    padding: 120px 0;
+}
+.your-site h2{
+    font-size: 42px;
+    font-weight: 400;
+}
+.your-site-title p{
+    font-size: 17px;
+}
+
+/* DIGI-DESIGN */
+
+.digi-design-title h2{
+    font-size: 42px;
+    font-weight: 400;
+}
+.digi-design-title p{
+    font-size: 17px;
+}
+.digi-design-inner .digi-design-item:hover img{
+    transform: translateY(-80px);
+}
+.digi-design-inner .digi-design-item:hover .digi-design-content{
+    top: 80%!important;
+}
+.digi-design-inner .digi-design-item img, .digi-design-inner .digi-design-item:hover .digi-design-content{
+    transition: 0.4s all;
+}
+
+/* SERVICES */
+
+.services-item:hover span{
+    transform: translateY(-30px);
+}
+
+/* FLEXIBLE */
+
+.flexible{
+    margin-top: 100px;
+    background-color: #f8f8f8;
+}
+
+.flexible .col-xl-6:last-child .flexible-item{
+    padding-left: 120PX;
+}
+.flexible-title h2{
+    font-size: 32px;
+    font-weight: 400;
+}
+
+/* CREATIVE-PEOPLE */
+
+.creative-button{
+    color: #505cfd;
+}
+.creative-title h2{
+    font-size: 42px;
+    font-weight: 400;
+}
+
+/* TESTIMONIAL */
+
+.testimonial{
+    background: url(../img/testimonial-1.jpg) rgba(0,0,0,0.3);
+    background-blend-mode: color-burn;
+    background-attachment: fixed;
+    height: 600px;
+}
+.testimonial-item img{
+    border: 6px solid rgba(255,255,255,.1);
+}
+.testimonial-item p{
+    font-size: 17px;
+    max-width: 480px;
+    margin: auto;
+}
+.slick-slide img{
+    display: inline;
+}
+
+/* ARTICLES */
+
+.articles-title h2{
+    font-size: 42px;
+}
+.articles-title p{
+    max-width: 450px;
+    font-size: .9375rem;
+}
+
+/* VALLUATION */
+
+
+/* FOOTER */
+
+footer{
+    padding: 80px 0;
+    padding-bottom: 20px;
+}
+.footer-item h6{
+    font-size: 11px;
+}
+.footer-item p{
+    font-size: 13px;
+}
+.col-xl-3:nth-child(2) .footer-item span{
+    font-size: 11px;
+}
+.copy-right{
+    font-size: 14px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
